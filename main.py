@@ -66,7 +66,7 @@ def Login():
 
     users_file.close()
 
-# creating neccessary elements to display logged in user
+
 '''
 logged_in_namesurname = Label(app, text = user_info['name_surname'])
 logged_in_namesurname.pack()
@@ -231,4 +231,5 @@ def SelectOption():
         
 SelectOption()
 '''
+
 app.mainloop()

@@ -3,31 +3,16 @@ sefa@gmail.com
 sefa123
 sefa123
 1995
-sonay göndüz
-sonay@gmail.com
-sonay123
-sonay123
-1995
 deneme isim
 deneme@gmail.com
 deneme
 deneme
 1995
-fatma
-fatma@gmail.com
-fatma12
-fatma12
-1963
 ali veli
 ali@gmail.com
 aliveli
 aliveli
 2020
-mustafa öz
-mustafa@gmail.com
-mustafa123
-mustafa123
-1963
 test isim
 test@gmail.com
 test123

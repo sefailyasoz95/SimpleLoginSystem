@@ -1,0 +1,98 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'signupform.ui'
+#
+# Created by: PyQt5 UI code generator 5.14.2
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(439, 745)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.groupBox_Signup = QtWidgets.QGroupBox(self.centralwidget)
+        self.groupBox_Signup.setGeometry(QtCore.QRect(40, 20, 361, 591))
+        self.groupBox_Signup.setObjectName("groupBox_Signup")
+        self.edittext_confirm_password = QtWidgets.QLineEdit(self.groupBox_Signup)
+        self.edittext_confirm_password.setGeometry(QtCore.QRect(170, 240, 150, 25))
+        self.edittext_confirm_password.setBaseSize(QtCore.QSize(0, 0))
+        self.edittext_confirm_password.setObjectName("edittext_confirm_password")
+        self.label_email = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label_email.setGeometry(QtCore.QRect(1, 99, 122, 21))
+        self.label_email.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_email.setLineWidth(2)
+        self.label_email.setObjectName("label_email")
+        self.edittext_email = QtWidgets.QLineEdit(self.groupBox_Signup)
+        self.edittext_email.setGeometry(QtCore.QRect(170, 100, 150, 25))
+        self.edittext_email.setObjectName("edittext_email")
+        self.label_password = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label_password.setGeometry(QtCore.QRect(1, 170, 122, 21))
+        self.label_password.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_password.setLineWidth(2)
+        self.label_password.setObjectName("label_password")
+        self.btn_signup = QtWidgets.QPushButton(self.groupBox_Signup)
+        self.btn_signup.setGeometry(QtCore.QRect(120, 360, 111, 32))
+        self.btn_signup.setObjectName("btn_signup")
+        self.label_birthdate = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label_birthdate.setGeometry(QtCore.QRect(1, 312, 122, 24))
+        self.label_birthdate.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_birthdate.setLineWidth(2)
+        self.label_birthdate.setObjectName("label_birthdate")
+        self.label_password_confirm = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label_password_confirm.setGeometry(QtCore.QRect(1, 241, 122, 21))
+        self.label_password_confirm.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_password_confirm.setLineWidth(2)
+        self.label_password_confirm.setObjectName("label_password_confirm")
+        self.edittext_password = QtWidgets.QLineEdit(self.groupBox_Signup)
+        self.edittext_password.setGeometry(QtCore.QRect(170, 170, 150, 25))
+        self.edittext_password.setObjectName("edittext_password")
+        self.label_namesurname = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label_namesurname.setGeometry(QtCore.QRect(1, 28, 122, 21))
+        self.label_namesurname.setFrameShape(QtWidgets.QFrame.Box)
+        self.label_namesurname.setLineWidth(2)
+        self.label_namesurname.setObjectName("label_namesurname")
+        self.edittext_namesurname = QtWidgets.QLineEdit(self.groupBox_Signup)
+        self.edittext_namesurname.setGeometry(QtCore.QRect(170, 30, 150, 25))
+        self.edittext_namesurname.setObjectName("edittext_namesurname")
+        self.label = QtWidgets.QLabel(self.groupBox_Signup)
+        self.label.setGeometry(QtCore.QRect(100, 400, 175, 35))
+        self.label.setFrameShape(QtWidgets.QFrame.Box)
+        self.label.setLineWidth(3)
+        self.label.setObjectName("label")
+        self.btn_signin = QtWidgets.QPushButton(self.groupBox_Signup)
+        self.btn_signin.setGeometry(QtCore.QRect(120, 440, 111, 32))
+        self.btn_signin.setObjectName("btn_signin")
+        self.birthdate = QtWidgets.QDateEdit(self.groupBox_Signup)
+        self.birthdate.setCalendarPopup(True)
+        self.birthdate.setGeometry(QtCore.QRect(170, 310, 161, 24))
+        self.birthdate.setObjectName("birthdate")
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 439, 22))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Sign Up - Sign In App"))
+        self.groupBox_Signup.setTitle(_translate("MainWindow", "Sign Up"))
+        self.label_email.setText(_translate("MainWindow", "Email:"))
+        self.label_password.setText(_translate("MainWindow", "Password"))
+        self.btn_signin.setText(_translate("MainWindow", "Sign In"))
+        self.label_birthdate.setText(_translate("MainWindow", "Date of Birth"))
+        self.label_password_confirm.setText(_translate("MainWindow", "Password Confirm"))
+        self.label_namesurname.setText(_translate("MainWindow", "Name Surname"))
+        self.label.setText(_translate("MainWindow", "Do you have an  account ?"))
+        self.btn_signup.setText(_translate("MainWindow", "Sign Up"))
